@@ -1,7 +1,7 @@
 
 pkgname=deadbeef
-pkgver=6.2.1
-_commit=593c1c1e5fb2aab32028e1fed3fe51481270f651
+pkgver=6.2.2
+_commit=d83311c4e82b6fdd6afe6da2cc9bcd8b195042be
 pkgrel=1
 pkgdesc="Music player for *nix-like systems and OS X"
 url="https://github.com/Alexey-Yakovenko/deadbeef"
@@ -14,7 +14,7 @@ makedepends=('git' 'intltool')
 install='deadbeef.install'
 options=('!libtool')
 source=("https://github.com/Alexey-Yakovenko/deadbeef/archive/${_commit}.zip")
-md5sums=('bab70aac2b0bf3428f1031fc413388bb')
+md5sums=('c3fccf362d5c0e83c59dac260ac96bd5')
 
 build() {
   cd ${srcdir}/${pkgname}-${_commit}
