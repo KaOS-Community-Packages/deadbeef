@@ -1,4 +1,9 @@
 # deadbeef
-DeaDBeeF is a music player for *nix-like systems and OS X.
+DeaDBeeF is a GTK+ audio player for GNU/Linux.
 
-https://github.com/Alexey-Yakovenko/deadbeef
+http://deadbeef.sourceforge.net/
+
+Install with:
+```
+kcp -i deadbeef
+```
