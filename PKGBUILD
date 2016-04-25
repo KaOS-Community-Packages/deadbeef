@@ -1,5 +1,5 @@
 pkgname=deadbeef
-pkgver=0.7.1
+pkgver=0.7.2
 pkgrel=1
 pkgdesc="Music player for *nix-like systems and OS X"
 url='http://deadbeef.sourceforge.net'
@@ -10,7 +10,7 @@ depends=('gtk2' 'gtk-update-icon-cache' 'alsa-lib' 'hicolor-icon-theme' 'desktop
 makedepends=('intltool' 'pkg-config')
 install='deadbeef.install'
 source=("http://downloads.sourceforge.net/project/${pkgname}/${pkgname}-${pkgver}.tar.bz2")
-md5sums=('824313b017f86aec815c356462138366')
+md5sums=('eeeefd13f6220b564582afacf658f463')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
